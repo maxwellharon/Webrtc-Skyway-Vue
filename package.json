@@ -1,0 +1,54 @@
+{
+  "name": "webrtc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "skyway-js": "4.4.1",
+    "vue": "2.6.14",
+    "vue-router": "3.5.2",
+    "vuetify": "2.5.6"
+  },
+  "devDependencies": {
+    "@megos/eslint-config-vue": "0.0.7",
+    "@vue/cli-plugin-babel": "4.5.13",
+    "@vue/cli-plugin-eslint": "4.5.13",
+    "@vue/cli-service": "4.5.13",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.30.0",
+    "sass": "1.35.2",
+    "sass-loader": "10.2.0",
+    "vue-cli-plugin-vuetify": "2.4.1",
+    "vue-template-compiler": "2.6.14",
+    "vuetify-loader": "1.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "@megos/eslint-config-vue"
+    ],
+    "globals": {
+      "ScreenShare": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
